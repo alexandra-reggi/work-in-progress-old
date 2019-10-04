@@ -1,0 +1,94 @@
+header {
+	width: 100%;
+	text-align: center;
+	top: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-right:15%
+}
+
+h1{
+	text-align:center;
+	text-shadow:6px 6px 6px grey;
+}
+
+body{
+	background-image:url(sablier.gif);
+	background-size:cover;
+	background-position:center;
+	display: flex;
+	flex-direction: row;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+#env{
+	widht:50px;
+	height:50px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	padding-right:20%
+}
+
+#inf{
+	widht:10px;
+	height:50px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	padding-left:45%;
+   
+}
+
+.bandeau{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	padding-left:10px;
+    width: 100%;
+}
+
+.bandeau a{
+	margin: 20%;
+}
+
+.soulign{
+	text-decoration:underline overline;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size:30px;
+	font-style:italic;
+}
+
+#droite {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+}
+
+#colgauche {
+	display: flex;
+	flex-direction:column-reverse;
+	align-items: flex-end;
+}
+
+#coldroite {
+	display: flex;
+	flex-direction:row;
+	align-items: flex-end;
+}
+.w {
+	color:blue;
+	text-shadow:6px 6px 6px black;
+}
+
+.w2 {
+	color:red;
+	text-shadow:6px 6px 6px black;
+	
+}
+	
